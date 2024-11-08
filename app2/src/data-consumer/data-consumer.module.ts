@@ -4,6 +4,6 @@ import { DataConsumerController } from './data-consumer.controller';
 
 @Module({
   providers: [DataConsumerService],
-  controllers: [DataConsumerController]
+  controllers: [DataConsumerController],
 })
 export class DataConsumerModule {}
